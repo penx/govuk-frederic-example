@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ExampleModule from '@govuk-frederic/example-module';
 import AppContainer from '@govuk-frederic/app-container';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
         <AppContainer modules={[
           {
             example: {
-              render: () => <div>hi</div>
+              render: () => <div><ExampleModule /></div>
             }
           }
         ]} />
