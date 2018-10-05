@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/govuk-frederic-example/precache-manifest.b8cad579d838103fa27c59ea7952ed5c.js"
+  "/govuk-frederic-example/precache-manifest.51541b23168065db28076170c1584a66.js"
 );
 
 workbox.clientsClaim();
