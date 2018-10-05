@@ -1,11 +1,11 @@
 {
-  "main.js": "/penx/govuk-frederic-example/static/js/main.57d3ebba.chunk.js",
-  "main.js.map": "/penx/govuk-frederic-example/static/js/main.57d3ebba.chunk.js.map",
-  "static/js/1.376c0d21.chunk.js": "/penx/govuk-frederic-example/static/js/1.376c0d21.chunk.js",
-  "static/js/1.376c0d21.chunk.js.map": "/penx/govuk-frederic-example/static/js/1.376c0d21.chunk.js.map",
-  "runtime~main.js": "/penx/govuk-frederic-example/static/js/runtime~main.0b976cc3.js",
-  "runtime~main.js.map": "/penx/govuk-frederic-example/static/js/runtime~main.0b976cc3.js.map",
-  "index.html": "/penx/govuk-frederic-example/index.html",
-  "precache-manifest.2f0f33ae611e1c81ba4991c274ebbc58.js": "/penx/govuk-frederic-example/precache-manifest.2f0f33ae611e1c81ba4991c274ebbc58.js",
-  "service-worker.js": "/penx/govuk-frederic-example/service-worker.js"
+  "main.js": "/govuk-frederic-example/static/js/main.a76ad29e.chunk.js",
+  "main.js.map": "/govuk-frederic-example/static/js/main.a76ad29e.chunk.js.map",
+  "static/js/1.376c0d21.chunk.js": "/govuk-frederic-example/static/js/1.376c0d21.chunk.js",
+  "static/js/1.376c0d21.chunk.js.map": "/govuk-frederic-example/static/js/1.376c0d21.chunk.js.map",
+  "runtime~main.js": "/govuk-frederic-example/static/js/runtime~main.6c37b5d9.js",
+  "runtime~main.js.map": "/govuk-frederic-example/static/js/runtime~main.6c37b5d9.js.map",
+  "index.html": "/govuk-frederic-example/index.html",
+  "precache-manifest.f54c0f0f161bea9f3705e61e7b040caa.js": "/govuk-frederic-example/precache-manifest.f54c0f0f161bea9f3705e61e7b040caa.js",
+  "service-worker.js": "/govuk-frederic-example/service-worker.js"
 }

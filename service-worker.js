@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/penx/govuk-frederic-example/precache-manifest.2f0f33ae611e1c81ba4991c274ebbc58.js"
+  "/govuk-frederic-example/precache-manifest.f54c0f0f161bea9f3705e61e7b040caa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/penx/govuk-frederic-example/index.html", {
+workbox.routing.registerNavigationRoute("/govuk-frederic-example/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
