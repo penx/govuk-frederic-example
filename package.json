@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/penx/govuk-frederic-example/issues"
   },
-  "homepage": "https://github.com/penx/govuk-frederic-example#readme",
+  "homepage": "https://penx.github.io/govuk-frederic-example",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
