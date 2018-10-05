@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import ExampleModule from '@govuk-frederic/example-module';
 import AppContainer from '@govuk-frederic/app-container';
+
+import asyncComponent from './components/async-component';
+
+const ExampleModule = asyncComponent(() => import('@govuk-frederic/example-module'));
+const ExampleModule2 = asyncComponent(() => import('@govuk-frederic/example-module-2'));
 
 class App extends Component {
   render() {
@@ -8,9 +12,14 @@ class App extends Component {
       <div>
         <AppContainer modules={[
           {
-            example: {
-              render: () => <div><ExampleModule /></div>
-            }
+            name: 'example',
+            displayName: 'Example',
+            render: () => <div><ExampleModule /></div>
+          },
+          {
+            name: 'example2',
+            displayName: 'Example2',
+            render: () => <div><ExampleModule2 /></div>
           }
         ]} />
       </div>
