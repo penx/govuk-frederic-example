@@ -1,6 +1,6 @@
 {
   "name": "@govuk-frederic/example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Example modularised application using govuk-frederic",
   "dependencies": {
     "@govuk-frederic/app-container": "0.0.6",
