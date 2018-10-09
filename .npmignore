@@ -1,0 +1,7 @@
+# we want build in npm so need to override .gitignore
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
