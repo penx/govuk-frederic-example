@@ -778,9 +778,9 @@
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
 
-"@govuk-frederic/app-container@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@govuk-frederic/app-container/-/app-container-0.1.2.tgz#6feec0eca67eb5697510f94de16ea031d33b5573"
+"@govuk-frederic/app-container@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@govuk-frederic/app-container/-/app-container-0.1.6.tgz#7b44705385ef8966ff97575baf65bf0427f76e62"
   dependencies:
     as-nav-link "^0.1.4"
 
@@ -847,9 +847,9 @@
   dependencies:
     "@govuk-react/constants" "^0.2.7"
 
-"@govuk-frederic/example-module@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@govuk-frederic/example-module/-/example-module-0.0.1.tgz#35b060dc2faf0db2765820f348adca114528ce5b"
+"@govuk-frederic/example-module@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@govuk-frederic/example-module/-/example-module-0.0.2.tgz#41bc89ec47aa0f4222444eb1bbbe2d87799009d3"
   dependencies:
     "@govuk-react/constants" "^0.2.7"
 

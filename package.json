@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "Example modularised application using govuk-frederic",
   "dependencies": {
-    "@govuk-frederic/app-container": "^0.1.2",
-    "@govuk-frederic/example-module": "0.0.1",
+    "@govuk-frederic/app-container": "^0.1.6",
+    "@govuk-frederic/example-module": "^0.0.2",
     "@govuk-frederic/example-module-2": "0.0.1",
     "emotion": "^9.2.12",
     "govuk-frederic": "^0.1.2",

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import AppContainer from '@govuk-frederic/app-container';
-import { Button } from 'govuk-react';
+import { Button, H1 } from 'govuk-react';
 import { ToastConsumer } from 'react-toast-notifications';
+import { Link } from 'react-router-dom';
 
 import asyncComponent from './components/async-component';
 
@@ -14,23 +15,24 @@ class App extends Component {
   render() {
     return (
       <div>
-        <AppContainer modules={[
+        <AppContainer root={<H1>Welcome to my app</H1>} modules={[
           {
             name: 'example',
             displayName: 'Example',
-            render: () => <div>
-              <ExampleModule />
-              <ToastConsumer>
-                {({add}) => {
-                  return <Button onClick={(e) => add(`Notified by ${e.target}`, {
-                    appearance: 'success',
-                    autoDismiss: true,
-                  })}>
-                    Notify me
-                  </Button>
-               }}
-              </ToastConsumer>
-            </div>
+            render: () =>
+              <ExampleModule>
+                <ToastConsumer>
+                  {({add}) => {
+                    return <Button onClick={(e) => add(`Notified by ${e.target}`, {
+                      appearance: 'success',
+                      autoDismiss: true,
+                    })}>
+                      Notify me
+                    </Button>
+                 }}
+                </ToastConsumer>
+                <Link to="/nowhere">Invalid Link</Link>
+              </ExampleModule>
           },
           {
             name: 'example2',
