@@ -778,9 +778,9 @@
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
 
-"@govuk-frederic/app-container@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@govuk-frederic/app-container/-/app-container-0.1.1.tgz#67aba85021c79d1820656769584dc073278f0ca3"
+"@govuk-frederic/app-container@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@govuk-frederic/app-container/-/app-container-0.1.2.tgz#6feec0eca67eb5697510f94de16ea031d33b5573"
   dependencies:
     as-nav-link "^0.1.4"
 
