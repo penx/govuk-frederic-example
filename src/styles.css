@@ -1,0 +1,29 @@
+/* TODO: font loading strategy */
+@import url('https://rsms.me/inter/inter-ui.css');
+
+/* TODO: should any of the below be in CSSinJS? */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+img,
+svg {
+  vertical-align: top;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #f3f3f3;
+  font-family: 'Inter UI', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
