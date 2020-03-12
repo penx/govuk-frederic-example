@@ -6,17 +6,17 @@
     "@govuk-frederic/app-container": "^0.1.9",
     "@govuk-frederic/example-module": "^0.0.3",
     "@govuk-frederic/example-module-2": "0.0.1",
-    "emotion": "^9.2.12",
+    "emotion": "^10.0.0",
     "govuk-frederic": "^0.1.2",
     "govuk-react": "^0.3.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-emotion": "^9.2.12",
+    "react-emotion": "^10.0.0",
     "react-markdown": "^4.0.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4",
-    "react-toast-notifications": "^1.3.1"
+    "react-toast-notifications": "^2.1.0"
   },
   "repository": {
     "type": "git",
